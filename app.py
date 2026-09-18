@@ -21,7 +21,7 @@ st.write(
 def conectar_gsheets():
   # As credenciais da Google API serão lidas de forma segura no Streamlit Cloud
   scope = [
-      "https://www.spreadsheets.google.com/feeds",
+      "https://www.googleapis.com/auth/spreadsheets",
       "https://www.googleapis.com/auth/drive",
   ]
   credentials_dict = dict(st.secrets["gcp_service_account"])
