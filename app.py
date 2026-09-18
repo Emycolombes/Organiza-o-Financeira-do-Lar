@@ -31,7 +31,7 @@ def conectar_gsheets():
   client = gspread.authorize(creds)
 
   # Abre a planilha pelo ID
-  sheet_id = "127aZ6G_aS9VtSDpxixIZMbwGEZUSLpMd"
+  sheet_id = "1bai4RSlopyqdJZCRvCXoLw0qNwhUlv0HL0v0AOe6IDc"
   sheet = client.open_by_key(sheet_id)
   return sheet
 
